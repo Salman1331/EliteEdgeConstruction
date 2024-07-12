@@ -192,7 +192,7 @@
         </div>
     </section>
     
-    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
     
     <script>
@@ -226,8 +226,8 @@
         const popupBanner = document.getElementById('popup-banner');
         const closeBtn = document.querySelector('.popup-banner .close-btn');
         const contactFormPopup = document.querySelector('.popup-banner .contact-form form');
-        let formSubmitted = false;
-    
+        let formSubmitted = localStorage.getItem('formSubmitted') === 'true';
+
         // Function to show popup banner
         function showPopupBanner() {
             if (!formSubmitted) {
@@ -243,7 +243,7 @@
             popupBanner.style.display = 'none';
             if (!formSubmitted) {
                 // Re-show the popup banner every 20 seconds if the form is not submitted
-                setTimeout(showPopupBanner, 20000);
+                setTimeout(showPopupBanner, 200000);
             }
         });
     
@@ -266,6 +266,7 @@
             }).then(() => {
                 formSubmitted = true;
                 popupBanner.style.display = 'none';
+                localStorage.setItem('formSubmitted', 'true');
                 alert('Message sent successfully!');
             }).catch((error) => {
                 console.error('Error writing to Firebase Database: ', error);
@@ -306,6 +307,10 @@
         });
     });
     </script>
+    
+       
+               
+    
     
     
      
