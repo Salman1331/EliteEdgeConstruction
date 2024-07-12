@@ -531,7 +531,7 @@ body {
     }
 
     .about .row .image-frame {
-        max-width:90px;
+        padding-left:20px;
     }
     .about .row .content {
         max-width: 100%;
