@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Construction Builders</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the existing styles.css file -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the new style.css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./images/logo.png" alt="Logo">
+        </div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="hamburger">
+            <div class="line first"></div>
+            <div class="line second"></div>
+            <div class="line third"></div>
+        </div>
+     
+    </header>
+  
+    
+
+    <!-- HOME -->
+<section class="home" id="home">
+    <div class="content">
+       <h3>We provide the best services</h3>
+       <p>"Delivering unparalleled construction services to bring your vision to life with excellence and precision."</p>
+       <a href="#pricing" class="btn">Explore Plans</a>
+    </div>
+ </section>
+
+ <div id="popup-banner" class="popup-banner">
+    <div class="popup-content">
+        <span class="close-btn">&times;</span>
+        <img src="./images/logo.png" alt="Banner Image" class="banner-image">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="Phone No" name="phone No" placeholder="Your Mobile Number" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+ 
+
+    <section id="services" class="services">
+        <h2 class="heading">Our Services</h2>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>Construction</h3>
+                <p>Top-notch construction services for residential and commercial projects.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-paint-roller"></i>
+                <h3>Renovation</h3>
+                <p>High-quality renovation services to give your space a new look.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hard-hat"></i>
+                <h3>Project Management</h3>
+                <p>Professional project management for timely and efficient project completion.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="heading">About Us</h2>
+            <div class="row">
+                <div class="image-frame">
+                    <img src="./images/logo.png" alt="About Us Image">
+                </div>
+                <div class="content">
+                    <h3>Our Story</h3>
+                    <p>Welcome to Elite edge Construction, your trusted partner in building excellence. 
+                        With over 3 years of experience, we specialize in delivering top-tier construction services
+                         across residential, commercial, and industrial sectors. Our commitment to quality 
+                         craftsmanship, safety, and client satisfaction ensures every project is executed with precision and care.
+                          Discover how we can bring your vision to life with integrity and expertise.</p>
+                    <a href="#contact" class="btn">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="projects" class="projects">
+        <h2 class="heading">Our Projects</h2>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="./images/image 3.jpeg" alt="Project 1">
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>Residential Building</h3>
+                        <p>A beautiful residential building project.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./images/house plan.jpg" alt="Project 2">
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>Design Planning </h3>
+                        <p>An impressive design plan for a house project.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./images/image 2.jpeg" alt="Project 3">
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>Interior Renovation</h3>
+                        <p>A modern interior renovation project.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="pricing">
+        <h2 class="heading">Pricing</h2>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hammer"></i>
+                <h3>Basic Plan</h3>
+                <div class="price">₹1650/sqft</div>
+                <div class="list">
+                    <p>Construction services</p>
+                    <p>Renovation services</p>
+                    <p>Project management</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>Standard Plan</h3>
+                <div class="price">₹2000/sqft</div>
+                <div class="list">
+                    <p>All basic services</p>
+                    <p>Additional custom services</p>
+                    <p>Priority support</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-hard-hat"></i>
+                <h3>Premium Plan</h3>
+                <div class="price">₹2400/sqft</div>
+                <div class="list">
+                    <p>All standard services</p>
+                    <p>Exclusive services</p>
+                    <p>24/7 support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2 class="heading">Contact Us</h2>
+        <div class="row">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434508252!2d144.95373631531696!3d-37.81627917975147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577a6df748d5b1a!2sVictoria%20Harbour!5e0!3m2!1sen!2sau!4v1611229226944!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <form id="contactForm" class="contact-form">
+                <h3>Get in Touch</h3>
+                <input type="text" class="box" id="name" name="name" placeholder="Name" required>
+                <input type="email" class="box" id="email" name="email" placeholder="Email" required>
+                <input type="tel" class="box" id="phone" name="phone" placeholder="Phone" required>
+                <textarea class="box" id="message" name="message" placeholder="Message" required></textarea>
+                <input type="submit" class="btn" value="Send Message">
+            </form>
+        </div>
+    </section>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const hamburger = document.querySelector('.hamburger');
+        const navbar = document.querySelector('.navbar');
+    
+        hamburger.addEventListener('click', function() {
+            navbar.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+    });
+    
+     // Your web app's Firebase configuration
+     var firebaseConfig = {
+        apiKey: "AIzaSyA14Bvyxuvp3YZFZd_eeXieUllRk7PvqJw",
+        authDomain: "elite-edge-6a829.firebaseapp.com",
+        databaseURL: "https://elite-edge-6a829-default-rtdb.firebaseio.com",
+        projectId: "elite-edge-6a829",
+        storageBucket: "elite-edge-6a829.appspot.com",
+        messagingSenderId: "71884717505",
+        appId: "1:71884717505:web:5dcaea5d92b44b042f4340",
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    
+    // Initialize Firebase Database reference
+    var database = firebase.database();
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        const popupBanner = document.getElementById('popup-banner');
+        const closeBtn = document.querySelector('.popup-banner .close-btn');
+        const contactFormPopup = document.querySelector('.popup-banner .contact-form form');
+        let formSubmitted = false;
+    
+        // Function to show popup banner
+        function showPopupBanner() {
+            if (!formSubmitted) {
+                popupBanner.style.display = 'flex';
+            }
+        }
+    
+        // Show popup banner after 5 seconds
+        setTimeout(showPopupBanner, 5000);
+    
+        // Close the popup banner
+        closeBtn.addEventListener('click', function() {
+            popupBanner.style.display = 'none';
+            if (!formSubmitted) {
+                // Re-show the popup banner every 20 seconds if the form is not submitted
+                setTimeout(showPopupBanner, 20000);
+            }
+        });
+    
+        // Handle form submission for popup banner
+        contactFormPopup.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent actual form submission for demonstration
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            const phone = document.getElementById('phone').value;
+    
+            // Send data to Firebase Realtime Database
+            database.ref('popupContactFormSubmissions').push({
+                name: name,
+                email: email,
+                message: message,
+                phone: phone,
+                timestamp: firebase.database.ServerValue.TIMESTAMP
+            }).then(() => {
+                formSubmitted = true;
+                popupBanner.style.display = 'none';
+                alert('Message sent successfully!');
+            }).catch((error) => {
+                console.error('Error writing to Firebase Database: ', error);
+                alert('Failed to send message. Please try again.');
+            });
+        });
+    
+        // Re-show the popup banner every 20 seconds if the form is not submitted
+        setInterval(function() {
+            if (!formSubmitted && popupBanner.style.display === 'none') {
+                showPopupBanner();
+            }
+        }, 20000);
+        
+        // Handle form submission for main contact form
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent actual form submission
+            
+            // Collect form data
+            var formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                message: document.getElementById('message').value
+            };
+    
+            // Save form data to Firebase Realtime Database
+            database.ref('contactFormSubmissions').push(formData)
+                .then(function() {
+                    // Reset the form after submission
+                    document.getElementById('contactForm').reset();
+                    alert('Message sent successfully!');
+                })
+                .catch(function(error) {
+                    console.error('Error writing to Firebase Database:', error);
+                    alert('Failed to send message. Please try again.');
+                });
+        });
+    });
+    </script>
+    
+    
+     
+
+    <footer class="footer">
+        <p>&copy; 2024 EliteEdge. All Rights Reserved.</p>
+    </footer>
+
+    <a href="https://wa.me/917019733425" class="whatsapp-float" target="_blank">
+        <img src="./images/watsapp logo.png" alt="WhatsApp Icon" class="whatsapp-icon">
+    </a>
+    
+</body>
+
+
+</html>
