@@ -530,13 +530,13 @@ body {
         flex-direction: column;
     }
 
-    .about .row .image-frame,
+    .about .row .image-frame {
+        max-width:90px;
+    }
     .about .row .content {
         max-width: 100%;
         max-height:100%;
     }
-    .about .row .image-frame img {
-    width: 100%;
     
 }
 
