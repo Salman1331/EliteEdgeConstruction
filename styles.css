@@ -532,9 +532,11 @@ body {
 
     .about .row .image-frame {
        height:70px;
+        width:70px;
     }
      .about .row .image-frame img {
-       height:60px;
+       height:50px;
+         width:50px;
     }
     .about .row .content {
         max-width: 100%;
