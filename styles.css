@@ -529,10 +529,10 @@ body {
     .about .row {
         flex-direction: column;
     }
-
+/*
     .about .row .image-frame {
        height:70px;
-    }
+    }*/
     
     .about .row .content {
         max-width: 100%;
