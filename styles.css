@@ -531,10 +531,10 @@ body {
     }
 
     .about .row .image-frame {
-       height:60px;
+       height:70px;
     }
      .about .row .image-frame img {
-       height:50px;
+       height:60px;
     }
     .about .row .content {
         max-width: 100%;
